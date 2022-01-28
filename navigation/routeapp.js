@@ -40,3 +40,6 @@ import Home from '../Screens/Home';
 import FundAcct from '../Screens/FundAcct';
 import Cards from '../Screens/Cards';
 import Budget from '../Screens/Budget';
+import SignUp from '../Screens/Authenticate/SignUp';
+import SignIn from '../Screens/Authenticate/SignIn';
+import Welcome from '../Screens/Authenticate/Welcome';
