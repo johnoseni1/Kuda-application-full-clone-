@@ -23,4 +23,4 @@
 
 import react from 'react';
 import { AsyncStorage } from 'react-native';
-import {navigationContainer}
+import { NavigationContainer } from '@react-navigation/native';
