@@ -37,4 +37,6 @@ import Splash from '../Screens/Splash';
 import Settings from '../Screens/Settings';
 import Payments from '../Screens/Payments';
 import Home from '../Screens/Home';
-import FundAcct from '../Screens/FundAcct'
+import FundAcct from '../Screens/FundAcct';
+import Cards from '../Screens/Cards';
+import Budget from '../Screens/Budget';
