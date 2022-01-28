@@ -1,0 +1,1 @@
+# Kuda application full clone
