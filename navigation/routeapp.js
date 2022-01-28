@@ -35,4 +35,6 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import Splash from '../Screens/Splash';
 import Settings from '../Screens/Settings';
-import Payments from '../Screens/Payments'
+import Payments from '../Screens/Payments';
+import Home from '../Screens/Home';
+import FundAcct from '../Screens/FundAcct'
