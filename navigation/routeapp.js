@@ -33,3 +33,6 @@ import { AsyncStorage } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
+import Splash from '../Screens/Splash';
+import Settings from '../Screens/Settings';
+import Payments from '../Screens/Payments'
