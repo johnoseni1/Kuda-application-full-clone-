@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "kudaApp",
+    "slug": "kudaApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "kudaApp"
+}
