@@ -29,5 +29,5 @@ import renderer from 'react-test-renderer';
 
 
 it('renders fine', () => {
-    
+    renderer.create(<App/>);
 });
