@@ -29,8 +29,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   FlatList,
-  Image,
-  Dimensions,StatusBar,Animated,
+  Image,Dimensions,StatusBar,Animated,
 } from 'react-native';
 import {WelcomeIllustration} from '../../Data/data';
 import KudaBtn from '../Components/Button';
