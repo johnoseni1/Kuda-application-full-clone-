@@ -23,7 +23,6 @@
 
 import React from 'react';
 import {View, Text, StyleSheet, Keyboard, AsyncStorage} from 'react-native';
-
 import NavBarAuth from '../components/NavBarAuth';
 import Logo from '../components/logo';
 import KudaInputBar from '../components/InputBar';
@@ -31,6 +30,7 @@ import KudaBtn from '../components/Button';
 import QusOpt from '../components/QusOpt';
 
 class Signin extends React.Component {
+
   constructor() {
     super();
     this.state = {
