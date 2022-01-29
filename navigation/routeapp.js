@@ -76,6 +76,7 @@ function AuthStackScreen() {
   );
 }
 
+// Create bottome nav
 const Tab = createBottomTabNavigator();
 
 function HomeApp() {
