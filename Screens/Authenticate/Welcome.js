@@ -24,8 +24,7 @@
 
 import React from 'react';
 import {
-  View,
-  Text,TouchableOpacity,StyleSheet,FlatList,Image,Dimensions,StatusBar,Animated,
+  View,Text,TouchableOpacity,StyleSheet,FlatList,Image,Dimensions,StatusBar,Animated,
 } from 'react-native';
 import {WelcomeIllustration} from '../../Data/data';
 import KudaBtn from '../Components/Button';
