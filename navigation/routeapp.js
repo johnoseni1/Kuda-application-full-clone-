@@ -31,7 +31,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Splash from '../Screens/Splash';
 import Welcome from '../Screens/Authenticate/Welcome';
 import Signin from '../Screens/Authenticate/SignIn';
-import TwoFA from '../screen/Auth/2FA';
+import TwoFA from '../screens/Authenticate/2FA';
 import TwoFAComfirmed from '../screen/Auth/2FAComfirmed';
 import TheBasic from '../screen/Auth/signup/theBasic';
 import AuthWelcome from '../screen/Auth/AuthWelcome';
