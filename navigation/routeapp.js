@@ -21,25 +21,27 @@
 // SOFTWARE.
 
 
-import react from 'react';
-
-import { NavigationContainer } from '@react-navigation/native';
-
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-import { createStackNavigator } from '@react-navigation/stack';
-
-import { AsyncStorage } from 'react-native';
-
+import React from 'react';
+import {AsyncStorage} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import Splash from '../Screens/Splash';
-import Settings from '../Screens/Settings';
-import Payments from '../Screens/Payments';
-import Home from '../Screens/Home';
-import FundAcct from '../Screens/FundAcct';
-import Cards from '../Screens/Cards';
-import Budget from '../Screens/Budget';
-import SignUp from '../Screens/Authenticate/SignUp';
-import SignIn from '../Screens/Authenticate/SignIn';
-import Welcome from '../Screens/Authenticate/Welcome';
+import Splash from '../screen/splash';
+import Welcome from '../screen/Auth/welcome';
+import signin from '../screen/Auth/signin';
+import TwoFA from '../screen/Auth/2FA';
+import TwoFAComfirmed from '../screen/Auth/2FAComfirmed';
+import TheBasic from '../screen/Auth/signup/theBasic';
+import AuthWelcome from '../screen/Auth/AuthWelcome';
+import ResetPassword from '../screen/Auth/resetPassword';
+import Home from '../screen/home';
+import budget from '../screen/budget';
+import payments from '../screen/payments';
+import card from '../screen/card';
+import settings from '../screen/settings';
+import fundAcct from '../screen/fundAcct';
+import ResetPin from '../screen/Auth/resetPin';
+import PinAuth from '../screen/Auth/pinAuth';
+import Signup from '../screen/Auth/signup';
