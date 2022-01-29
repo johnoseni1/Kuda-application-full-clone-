@@ -26,8 +26,7 @@ import {
   View,
   Text,
   StyleSheet,
-  Keyboard,
-  KeyboardAvoidingView,
+  Keyboard,KeyboardAvoidingView,
 } from 'react-native';
 import NavBarAuth from '../components/NavBarAuth';
 import KudaInputBar from '../components/InputBar';
