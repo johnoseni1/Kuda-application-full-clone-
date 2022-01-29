@@ -29,8 +29,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import Splash from '../Screens/Splash';
-import Welcome from '../screen/Auth/welcome';
-import signin from '../screen/Auth/signin';
+import Welcome from '../Screens/Authenticate/Welcome';
+import Signin from '../Screens/Authenticate/SignIn';
 import TwoFA from '../screen/Auth/2FA';
 import TwoFAComfirmed from '../screen/Auth/2FAComfirmed';
 import TheBasic from '../screen/Auth/signup/theBasic';
@@ -64,7 +64,7 @@ function AuthStackScreen() {
     <authStack.Navigator headerMode={'none'}>
       <authStack.Screen name="Welcome" component={Welcome} />
       <authStack.Screen name="AuthWelcome" component={AuthWelcome} />
-      <authStack.Screen name="Signin" component={signin} />
+      <authStack.Screen name="Signin" component={Signin} />
       <authStack.Screen name="2FA" component={TwoFA} />
       <authStack.Screen name="2FAComfirmed" component={TwoFAComfirmed} />
       <authStack.Screen name="ResetPin" component={ResetPin} />
