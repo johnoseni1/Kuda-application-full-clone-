@@ -28,7 +28,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {createStackNavigator} from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import Splash from '../screen/splash';
+import Splash from '../Screens/Splash';
 import Welcome from '../screen/Auth/welcome';
 import signin from '../screen/Auth/signin';
 import TwoFA from '../screen/Auth/2FA';
