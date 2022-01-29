@@ -35,7 +35,7 @@ import {
   Animated,
 } from 'react-native';
 import {WelcomeIllustration} from '../../Data/data';
-import KudaBtn from '../components/Button';
+import KudaBtn from '../Components/Button';
 
 function Next() {
   return (
