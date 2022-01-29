@@ -31,8 +31,7 @@ import {
   FlatList,
   Image,
   Dimensions,
-  StatusBar,
-  Animated,
+  StatusBar,Animated,
 } from 'react-native';
 import {WelcomeIllustration} from '../../Data/data';
 import KudaBtn from '../Components/Button';
