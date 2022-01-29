@@ -22,7 +22,7 @@
 // SOFTWARE.
 
 import React from 'react';
-import {View, Text, StyleSheet,Keyboard,KeyboardAvoidingView,
+import {View, Text, StyleSheet, Keyboard,KeyboardAvoidingView,
 } from 'react-native';
 import NavBarAuth from '../components/NavBarAuth';
 import KudaInputBar from '../components/InputBar';
