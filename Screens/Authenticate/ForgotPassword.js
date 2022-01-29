@@ -25,7 +25,7 @@ import {View, Text, StyleSheet} from 'react-native';
 import NavBarAuth from '../components/NavBarAuth';
 import KudaInputBar from '../components/InputBar';
 import KudaBtn from '../components/Button';
-import ResetIcon from '../components/ResetIcon';
+import ResetIcon from '../Components/ResetIcon';
 
 class ResetPassword extends React.Component {
   render() {
