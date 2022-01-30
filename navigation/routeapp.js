@@ -44,7 +44,7 @@ import settings from '../Screens/Settings';
 import fundAcct from '../Screens/FundAcct';
 import ResetPin from '../Screens/Authenticate/ForgotPin';
 import PinAuth from '../Screens/Authenticate/AuthPin';
-import Signup from '../screen/Auth/signup';
+import Signup from '../Screens/Authenticate/SignUp';
 
 const homeStack = createStackNavigator();
 
