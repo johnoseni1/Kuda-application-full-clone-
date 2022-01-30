@@ -134,7 +134,7 @@ function AppStackScreen() {
         <appStack.Screen name="Signup2" component={TheBasic} />
         <appStack.Screen name="Signup" component={Signup} />
         <appStack.Screen name="ResetPassword" component={ResetPassword} />
-        <appStack.Screen name="Home" component={HomeApp} />
+        <appStack.Screen name="Home" component={Home} />
       </appStack.Navigator>
     </NavigationContainer>
   );
