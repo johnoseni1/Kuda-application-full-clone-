@@ -27,7 +27,7 @@ import KudaInputBar from '../components/InputBar';
 import KudaBtn from '../components/Button';
 const CODE_LENGTH = new Array(6).fill(0);
 
-class PinAuth extends React.Component {
+class AuthPin extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -53,11 +53,11 @@ class PinAuth extends React.Component {
         />
         <View style={style.logoContainer}>
           <Image
-            style={style.pinAuthIllustration}
+            style={style.AuthPinIllustration}
             source={require('../../asset/illustration/enterPin.png')}
           />
-          <Text style={style.pinAuthText}>Welcome Back,</Text>
-          <Text style={style.pinAuthTextName}>Oluwaferanmi</Text>
+          <Text style={style.AuthPinText}>Welcome Back,</Text>
+          <Text style={style.AuthPinTextName}>Oluwaferanmi</Text>
         </View>
         <View style={style.inputs}>
           {CODE_LENGTH.map((v, index) => {
@@ -121,16 +121,16 @@ const style = StyleSheet.create({
     alignItems: 'center',
     marginTop: '10%',
   },
-  pinAuthIllustration: {
+  AuthPinIllustration: {
     resizeMode: 'contain',
     height: 100,
   },
-  pinAuthText: {
+  AuthPinText: {
     fontSize: 25,
     fontWeight: 'bold',
     marginTop: '5%',
   },
-  pinAuthTextName: {
+  AuthPinTextName: {
     fontSize: 25,
     fontWeight: 'bold',
     marginBottom: '2%',
@@ -149,4 +149,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default PinAuth;
+export default AuthPin;

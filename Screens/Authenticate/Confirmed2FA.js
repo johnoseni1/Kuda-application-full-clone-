@@ -50,11 +50,11 @@ class TwoFAComfirmed extends React.Component {
         />
         <View style={style.logoContainer}>
           <Image
-            style={style.pinAuthIllustration}
+            style={style.AuthPinIllustration}
             source={require('../../asset/illustration/pinComfirmed.png')}
           />
-          <Text style={style.pinAuthText}>Device Changed</Text>
-          <Text style={style.pinAuthTextDescription}>
+          <Text style={style.AuthPinText}>Device Changed</Text>
+          <Text style={style.AuthPinTextDescription}>
             This device has been linked to your !kuda account
           </Text>
         </View>
@@ -88,17 +88,17 @@ const style = StyleSheet.create({
     alignItems: 'center',
     marginTop: '10%',
   },
-  pinAuthText: {
+  AuthPinText: {
     fontSize: 25,
     fontWeight: 'bold',
     marginTop: '5%',
     marginBottom: '2%',
   },
-  pinAuthTextDescription: {
+  AuthPinTextDescription: {
     fontSize: 16,
     marginBottom: '90%',
   },
-  pinAuthIllustration: {
+  AuthPinIllustration: {
     resizeMode: 'contain',
     height: 100,
   },

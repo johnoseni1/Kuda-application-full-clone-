@@ -54,11 +54,11 @@ class TwoFA extends React.Component {
         />
         <View style={style.logoContainer}>
           <Image
-            style={style.pinAuthIllustration}
+            style={style.AuthPinIllustration}
             source={require('../../asset/illustration/enterPin.png')}
           />
-          <Text style={style.pinAuthText}>Comfirm</Text>
-          <Text style={style.pinAuthTextDescription}>
+          <Text style={style.AuthPinText}>Comfirm</Text>
+          <Text style={style.AuthPinTextDescription}>
             We sent you a code by text
           </Text>
         </View>
@@ -123,16 +123,16 @@ const style = StyleSheet.create({
     alignItems: 'center',
     marginTop: '10%',
   },
-  pinAuthText: {
+  AuthPinText: {
     fontSize: 25,
     fontWeight: 'bold',
     marginTop: '5%',
     marginBottom: '2%',
   },
-  pinAuthTextDescription: {
+  AuthPinTextDescription: {
     fontSize: 16,
   },
-  pinAuthIllustration: {
+  AuthPinIllustration: {
     resizeMode: 'contain',
     height: 100,
   },
