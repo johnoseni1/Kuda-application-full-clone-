@@ -35,7 +35,7 @@ import TwoFA from '../screens/Authenticate/2FA';
 import TwoFAComfirmed from '../Screens/Authenticate/Confirmed2FA';
 import TheBasic from '../Screens/Authenticate/SignUp/Basic';
 import AuthWelcome from '../Screens/Authenticate/AuthWelcome';
-import ResetPassword from '../Screens/Authenticate/ForgotPassword';
+import ForgotPassword from '../Screens/Authenticate/ForgotPassword';
 import Home from '../Screens/Home';
 import budget from '../Screens/Budget';
 import payments from '../Screens/Payments';
