@@ -27,7 +27,8 @@
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.10.2",
     "react-native-vector-icons": "^9.0.0",
-    "react-native-web": "0.17.1"
+    "react-native-web": "0.17.1",
+    "uri-scheme": "^1.0.112"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
