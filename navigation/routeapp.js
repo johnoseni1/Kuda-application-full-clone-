@@ -43,7 +43,7 @@ import card from '../Screens/Cards';
 import settings from '../Screens/Settings';
 import fundAcct from '../Screens/FundAcct';
 import ResetPin from '../Screens/Authenticate/ForgotPin';
-import PinAuth from '../Screens/Authenticate/AuthPin';
+import AuthPin from '../Screens/Authenticate/AuthPin';
 import Signup from '../Screens/Authenticate/SignUp';
 
 const homeStack = createStackNavigator();
@@ -68,7 +68,7 @@ function AuthStackScreen() {
       <authStack.Screen name="2FA" component={TwoFA} />
       <authStack.Screen name="2FAComfirmed" component={TwoFAComfirmed} />
       <authStack.Screen name="ResetPin" component={ResetPin} />
-      <authStack.Screen name="PinAuth" component={PinAuth} />
+      <authStack.Screen name="AuthPin" component={AuthPin} />
       <authStack.Screen name="Signup2" component={TheBasic} />
       <authStack.Screen name="Signup" component={Signup} />
       <authStack.Screen name="ResetPassword" component={ResetPassword} />
@@ -126,11 +126,11 @@ function AppStackScreen() {
       <appStack.Navigator headerMode={'none'}>
         <appStack.Screen name="Welcome" component={Welcome} />
         <appStack.Screen name="AuthWelcome" component={AuthWelcome} />
-        <appStack.Screen name="Signin" component={signin} />
+        <appStack.Screen name="Signin" component={Signin} />
         <appStack.Screen name="2FA" component={TwoFA} />
         <appStack.Screen name="2FAComfirmed" component={TwoFAComfirmed} />
         <appStack.Screen name="ResetPin" component={ResetPin} />
-        <appStack.Screen name="PinAuth" component={PinAuth} />
+        <appStack.Screen name="AuthPin" component={AuthPin} />
         <appStack.Screen name="Signup2" component={TheBasic} />
         <appStack.Screen name="Signup" component={Signup} />
         <appStack.Screen name="ResetPassword" component={ResetPassword} />
