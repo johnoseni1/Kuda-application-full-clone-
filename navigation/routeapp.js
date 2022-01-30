@@ -71,7 +71,7 @@ function AuthStackScreen() {
       <authStack.Screen name="AuthPin" component={AuthPin} />
       <authStack.Screen name="Signup2" component={TheBasic} />
       <authStack.Screen name="Signup" component={Signup} />
-      <authStack.Screen name="ResetPassword" component={ResetPassword} />
+      <authStack.Screen name="ForgotPassword" component={ForgotPassword} />
     </authStack.Navigator>
   );
 }
@@ -133,7 +133,7 @@ function AppStackScreen() {
         <appStack.Screen name="AuthPin" component={AuthPin} />
         <appStack.Screen name="Signup2" component={TheBasic} />
         <appStack.Screen name="Signup" component={Signup} />
-        <appStack.Screen name="ResetPassword" component={ResetPassword} />
+        <appStack.Screen name="ForgotPassword" component={ForgotPassword} />
         <appStack.Screen name="Home" component={Home} />
       </appStack.Navigator>
     </NavigationContainer>

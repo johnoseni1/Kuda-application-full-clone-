@@ -27,7 +27,7 @@ import KudaInputBar from '../components/InputBar';
 import KudaBtn from '../components/Button';
 import ResetIcon from '../Components/ResetIcon';
 
-class ResetPassword extends React.Component {
+class ForgotPassword extends React.Component {
   render() {
 
     const {navigation} = this.props;
@@ -102,4 +102,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default ResetPassword;
+export default ForgotPassword;

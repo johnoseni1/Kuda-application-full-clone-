@@ -126,7 +126,7 @@ class Signin extends React.Component {
           <QusOpt
             question={'Forgot password'}
             option={'Reset now'}
-            onPress={() => navigation.navigate('ResetPassword')}
+            onPress={() => navigation.navigate('ForgotPassword')}
           />
         </View>
       </View>
