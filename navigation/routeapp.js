@@ -42,7 +42,7 @@ import payments from '../Screens/Payments';
 import card from '../Screens/Cards';
 import settings from '../Screens/Settings';
 import fundAcct from '../Screens/FundAcct';
-import ResetPin from '../Screens/Authenticate/ForgotPin';
+import ForgotPin from '../Screens/Authenticate/ForgotPin';
 import AuthPin from '../Screens/Authenticate/AuthPin';
 import Signup from '../Screens/Authenticate/SignUp';
 
@@ -67,7 +67,7 @@ function AuthStackScreen() {
       <authStack.Screen name="Signin" component={Signin} />
       <authStack.Screen name="2FA" component={TwoFA} />
       <authStack.Screen name="2FAComfirmed" component={TwoFAComfirmed} />
-      <authStack.Screen name="ResetPin" component={ResetPin} />
+      <authStack.Screen name="ForgotPin" component={ForgotPin} />
       <authStack.Screen name="AuthPin" component={AuthPin} />
       <authStack.Screen name="Signup2" component={TheBasic} />
       <authStack.Screen name="Signup" component={Signup} />
@@ -129,7 +129,7 @@ function AppStackScreen() {
         <appStack.Screen name="Signin" component={Signin} />
         <appStack.Screen name="2FA" component={TwoFA} />
         <appStack.Screen name="2FAComfirmed" component={TwoFAComfirmed} />
-        <appStack.Screen name="ResetPin" component={ResetPin} />
+        <appStack.Screen name="ForgotPin" component={ForgotPin} />
         <appStack.Screen name="AuthPin" component={AuthPin} />
         <appStack.Screen name="Signup2" component={TheBasic} />
         <appStack.Screen name="Signup" component={Signup} />

@@ -28,7 +28,7 @@ import KudaInputBar from '../components/InputBar';
 import KudaBtn from '../components/Button';
 import ResetIcon from '../Components/ResetIcon';
 
-class ResetPin extends React.Component {
+class ForgotPin extends React.Component {
 
   render() {
     const {navigation} = this.props;
@@ -127,4 +127,4 @@ const style = StyleSheet.create({
   },
 });
 
-export default ResetPin;
+export default ForgotPin;
